@@ -1,0 +1,3 @@
+SELECT city AS Şehir, country AS Ülke FROM city INNER JOIN country ON country.country_id = city.country_id;
+SELECT first_name AS "Ad", last_name AS "Soy isim", payment_id AS "Payment id" FROM customer INNER JOIN payment ON customer.customer_id = payment.customer_id;
+SELECT rental_id AS "Rental id", first_name AS "İsim", last_name AS "Soy isim" FROM customer INNER JOIN rental ON customer.customer_id = rental.customer_id;
